@@ -1,0 +1,23 @@
+{
+  "_createdAt": "2024-02-11T17:20:18Z",
+  "_id": "AUoLUkEDo6CVeRx5svBdPz",
+  "_rev": "fch5VgglpjYdxYFwpMwUMz",
+  "_type": "event",
+  "_updatedAt": "2026-02-26T11:53:02Z",
+  "date": "2016-03-08T00:12:18.155Z",
+  "doorsOpen": 320,
+  "eventType": "in-person",
+  "headline": {
+    "_ref": "artist-the-arctic-monkeys",
+    "_type": "reference"
+  },
+  "name": "The Arctic Monkeys at Woodstock",
+  "slug": {
+    "_type": "slug",
+    "current": "the-arctic-monkeys-at-woodstock"
+  },
+  "venue": {
+    "_ref": "venue-hollywood-bowl",
+    "_type": "reference"
+  }
+}
