@@ -34,7 +34,7 @@ export default async function EventPage({
     date,
     headline,
     details,
-    eventType,
+    format,
     doorsOpen,
     venue,
     tickets,
@@ -48,11 +48,11 @@ export default async function EventPage({
 
   const imageUrl = headline?.photo
     ? urlFor(headline.photo)
-        .height(310)
-        .width(550)
-        .quality(80)
-        .auto("format")
-        .url()
+      .height(310)
+      .width(550)
+      .quality(80)
+      .auto("format")
+      .url()
     : "https://placehold.co/550x310/png";
 
   return (
@@ -75,9 +75,9 @@ export default async function EventPage({
         />
         <div className="flex flex-col justify-center space-y-4">
           <div className="space-y-4">
-            {eventType ? (
+            {format ? (
               <div className="inline-block rounded-lg bg-gray-100 dark:bg-gray-800 px-3 py-1 text-sm text-gray-700 dark:text-gray-300 capitalize">
-                {eventType.replace("-", " ")}
+                {format.replace("-", " ")}
               </div>
             ) : null}
             {name ? (
